@@ -1,0 +1,3 @@
+#!/bin/bash
+clear
+[[ $(awk -F" " '{print $2}' /usr/lib/nzx) != "SUPORT.81.98508-2087" ]] && exit 0
